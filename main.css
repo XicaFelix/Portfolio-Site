@@ -1,1 +1,27 @@
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
 
+#navBar .nav {
+    display: inline;
+    border-right: 7 px solid #bbb;
+
+}
+
+#navBar .nav:last-child {
+    border-right: none;
+}
+
+#navBar .nav:hover {
+    background-color: chartreuse;
+}
+
+#navBar .nav a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+
+}
