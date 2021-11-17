@@ -7,14 +7,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(54, 11, 104);
+    height: 30px;
     display:block;
 }
 /*Center Navigation Bar, and provide margin from left edge*/
 #navBar .nav {
     display: inline-block;
     text-align: center;
+    font-size: 18px;
     margin: 0 5% 0 5%;
     position: sticky;
+    height: 30px;
 }
 #navBar .nav:first-child{
     margin-left: 10%;
